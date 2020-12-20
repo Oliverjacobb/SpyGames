@@ -11,7 +11,8 @@
         <meta name="keywords" content="SpyGames theme park">
         <!-- Stylesheet -->
         <link rel="stylesheet" type="text/css" href="StyleSheet/style.css">
-
+        <!-- Scripts -->
+        <script src ="Scripts/index.js"></script>
     </head>
     
     <!-- This body section contains the structure for all the visible content -->
@@ -28,7 +29,7 @@
 	</div>
     <header id="home" class="header">
         
-            <object data="images/logo.png"></object>
+            <object data="images/logo.png" onclick = "reDirect()" class = "logo"></object>
             <div class="spaced"></div>            
             <button type="button" onclick="location.href=href='index.html'" class="button">home</button>  
             <button type="button" onclick="location.href=href='attractions.html'" class="button">attractions</button>
